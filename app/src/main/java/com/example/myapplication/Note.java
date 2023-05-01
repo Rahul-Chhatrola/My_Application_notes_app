@@ -7,6 +7,7 @@ public class Note {
     String content;
     Timestamp timestamp;
     public Note() {
+
     }
 
     public String getTitle() {
@@ -28,7 +29,6 @@ public class Note {
     public Timestamp getTimestamp() {
         return timestamp;
     }
-
     public void setTimestamp(Timestamp timestamp) {
         this.timestamp = timestamp;
     }
